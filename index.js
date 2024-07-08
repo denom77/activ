@@ -26,7 +26,7 @@ client.on('ready', async () => {
         .addButton('Slow Respon? Tekan Ini', 'https://wa.me/6283102229967');
 
     client.user.setActivity(r);
-    client.user.setPresence({ status: 'dnd' });
+    client.user.setPresence({ status: 'idle' });
 });
 
 client.login(process.env.TOKEN);
